@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react';
-import logo from './logo.svg';
+import ReactDOM from 'react-dom';
+
 import './App.css';
 import Profile from './Profile';
 
