@@ -28,7 +28,9 @@ class Modal extends React.Component {
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis nemo unde quo, quam veritatis ad ratione ut ab, velit nesciunt sapiente quos excepturi. Voluptas libero iure dolorem rerum aliquam!
                     </div>
                 )
-                : null }
+                :  <div className="modal">
+                       Xren`
+                    </div>   }
 
                 <button onClick={this.togleModalHandler = this.togleModalHandler.bind ( this, "arg-1", "arg-2")}>Show/Hide</button>
             </div>
