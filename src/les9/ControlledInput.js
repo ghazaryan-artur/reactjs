@@ -6,7 +6,7 @@ class ControlledInput extends React.Component {
       grade: 2
     }
   
-    handleChange = ({ target: { type, checked, value, name } }) => {
+    handleChange = ({ target: { name, type, checked, value } }) => {
       this.setState({
         [name]: type === 'checkbox' ? checked : value
       })
